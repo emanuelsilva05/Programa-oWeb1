@@ -1,0 +1,68 @@
+<!DOCTYPE html>  <! Foi o que consegui fazer professor --> 
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>5º questão</title>
+	<style>
+		#subtitulo {
+			background-color: orange;	}
+	    #area {
+            position:relative;
+            left:27%;
+            top:29%;
+            width:320px;
+            height:270px;
+          }
+        #area #formulario {
+            position:absolute;
+            display:block;
+          }
+
+	</style>
+</head>
+<body>
+<div id="area">
+
+  <form id="formulario">
+     
+      <p id= "subtitulo">SISTEMA DE GESTÃO ACADÊMICA</p>
+      <h4 id= "titulo">MANUTENÇÃO DE USUÁRIO DO SISTEMA INTERNO</h4>
+
+      <p>Login<input type="text"></p>
+      <p>Senha<input type="text"></p>
+      <p>Status
+    
+    <select>
+      <option>Inativo</option>
+      <option>Ativo</option>
+      <option>Nulo</option>
+    </select></p>
+
+      <p>Tipo<input type="radio" name="sexo">Técnico
+	   <input type="radio" name="sexo">Professor
+	   <input type="radio" name="sexo">Aluno </p>
+
+      <p>Data de criação<input type="text"></p>
+
+      <p>Perfil<input type="radio" name="sexo">Convidado
+	   <input type="radio" name="sexo">Administrador
+      </p>
+
+      <p>Observações<textarea rows="6" cols="80">
+
+      </textarea></p>
+
+      <p>Modúlos<input type="checkbox">compras
+          <input type="checkbox">Biblioteca
+          <input type="checkbox">Acadêmico<br>
+          <input type="checkbox">Documentos
+          <input type="checkbox">Recursos Humanos</p>
+          <input type="button" value="Cadastrar">
+          <input type="button" value="Excluir">
+       
+   </form>
+
+</div>
+
+</body>
+</html>
